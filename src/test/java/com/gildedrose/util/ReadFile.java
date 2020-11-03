@@ -13,10 +13,8 @@ public class ReadFile {
             BufferedReader bufferedReader = new BufferedReader(read);
             String lineTxt = null;
             while ((lineTxt = bufferedReader.readLine()) != null) {
-                //System.out.println(lineTxt);
                 buffer.append(lineTxt);
             }
-
             read.close();
         }
         return buffer.toString();

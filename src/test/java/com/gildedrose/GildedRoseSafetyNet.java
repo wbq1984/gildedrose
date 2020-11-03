@@ -1,3 +1,5 @@
+package com.gildedrose;
+
 import org.junit.Test;
 
 public class GildedRoseSafetyNet {
