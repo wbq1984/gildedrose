@@ -16,6 +16,7 @@ class GildedRose {
                         item.quality = item.quality - 1;
                     }
                 }
+
             } else {
                 if (item.quality < 50) {
                     item.quality = item.quality + 1;
@@ -41,7 +42,7 @@ class GildedRose {
             }
 
             if (item.sellIn < 0) {
-                if (!item.name.equals("Aged Brie")) {
+                if (!item.isAgedbrie()) {
                     if (!item.isBackstagePass()) {
                         if (item.quality > 0) {
                             if (!item.isSulfuras()) {
