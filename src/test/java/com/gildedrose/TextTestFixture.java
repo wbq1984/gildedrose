@@ -26,7 +26,6 @@ public class TextTestFixture {
                 createBackstagePass(15,20),
                 createBackstagePass(10,49),
                 createBackstagePass(5,49),
-
                 // this conjured item does not work properly yet
                 new Item("Conjured Mana Cake", 3, 6)};
 
