@@ -23,9 +23,10 @@ public class TextTestFixture {
                 new Item("Elixir of the Mongoose", 5, 7), //
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80), //
                 new Item("Sulfuras, Hand of Ragnaros", -1, 80),
-                createBackstagePass( 15,20),
-                createBackstagePass( 11,49),
-                new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
+                createBackstagePass(15,20),
+                createBackstagePass(10,49),
+                createBackstagePass(5,49),
+
                 // this conjured item does not work properly yet
                 new Item("Conjured Mana Cake", 3, 6)};
 
